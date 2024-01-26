@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "WokVault",
+    "version": "1.0.0",
+    "description": "WokVault, a hybrid password manager and vault for your browser.",
+    "icons": {
+        "16": "images/icons/icon16.png",
+        "32": "images/icons/icon32.png",
+        "48": "images/icons/icon48.png",
+        "64": "images/icons/icon64.png",
+        "128": "images/icons/icon128.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "images/icons/icon16.png",
+            "32": "images/icons/icon32.png",
+            "48": "images/icons/icon48.png",
+            "64": "images/icons/icon64.png",
+            "128": "images/icons/icon128.png"
+        }
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+    
+
+}
